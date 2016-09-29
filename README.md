@@ -24,6 +24,7 @@ Returns: `Boolean`
 |`element`|`HTMLElement`| Target Node | not null |
 |`threshold`|`float`|  Greater than or equal to (`threshold` * 100)% of the pixels in the `element` was on document | 1.0|
 
+**Example**
 
 ```
 var elementInDocument = require('element-in-document')
