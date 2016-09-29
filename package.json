@@ -1,0 +1,31 @@
+{
+  "name": "element-in-document",
+  "version": "1.0.0",
+  "description": "Finding out if the element exists `threshold * 100`% on the document",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyungw00k/element-in-document.git"
+  },
+  "keywords": [
+    "on document",
+    "in element",
+    "document",
+    "element",
+    "inside",
+    "document"
+  ],
+  "author": "Kyungwook Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyungw00k/element-in-document/issues"
+  },
+  "homepage": "https://github.com/kyungw00k/element-in-document#readme",
+  "dependencies": {
+    "element-client-rect": "^1.0.2",
+    "intersect-client-rects": "^1.0.1"
+  }
+}
