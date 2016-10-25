@@ -26,8 +26,8 @@ function inDocument (el, threshold) {
   var elemRect = getElementClientRect(el)
   var doc = el.ownerDocument
 
-  var docWidth = Math.max(doc.body.clientWidth, doc.documentElement.offsetWidth)
-  var docHeight = Math.max(doc.body.clientHeight, doc.documentElement.offsetHeight)
+  var docWidth = Math.max(doc.body.clientWidth, doc.documentElement.offsetWidth, doc.documentElement.scrollWidth)
+  var docHeight = Math.max(doc.body.clientHeight, doc.documentElement.offsetHeight, doc.documentElement.scrollHeight)
 
   var docRect = {
     top: 0,
